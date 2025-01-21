@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-df=pd.read_csv("D:/Proyecto_TRIPLETEN/proyecto_7/vehicles_us.csv")
+df=pd.read_csv("vehicles_us.csv")
 
 st.title('Dashboard de Vehiculos Usados')
 st.write('Bienvenido a la Aplicacion')
